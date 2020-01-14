@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.GraphWindow">
+   <children>
+      <LineChart fx:id="loanLineChart" layoutX="2.0" prefHeight="432.0" prefWidth="640.0" title="Loan" AnchorPane.bottomAnchor="48.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis fx:id="AxisX" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="AxisY" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="back" layoutX="281.0" layoutY="417.0" mnemonicParsing="false" onAction="#getBack" text="Get Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="133.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.DelayWindow">
+    <children>
+        <ComboBox fx:id="fromCBox" layoutX="84.0" layoutY="14.0" onAction="#selectFrom" prefWidth="150.0" promptText="From" />
+        <ComboBox fx:id="toCBox" layoutX="84.0" layoutY="50.0" onAction="#selectTo" prefWidth="150.0" promptText="To" />
+      <Button layoutX="134.0" layoutY="88.0" mnemonicParsing="false" onAction="#getBack" text="Back" />
+    </children>
+</AnchorPane>
